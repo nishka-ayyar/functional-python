@@ -23,7 +23,7 @@ def evens(n):
     []
     '''
     return list(filter(lambda x: x % 2 == 0, range(0, n+1)))
-    # return [n for n in list(range(0, n+1)) if n%2 == 0]
+    # return [n for n in list(range(0, n+1)) if n%2 == 0] this is another way to do it I think
 
 
 def threes(n):
